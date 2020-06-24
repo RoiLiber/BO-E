@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    font: inherit;
+    border: thin solid darkslategrey;
+    background-color: white;
+    padding: 10px 15px;
+    color: darkslategrey;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    border: 3px solid gray;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    color: darkslategrey;
+}
+
+p {
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: darkslategrey;
+    padding: 10px;
+    margin: 0;
+}
+
+.header_nav {
+    width: 50%;
+}
+
+.header_nav_list {
+    display: flex;
+}
+
+.header_nav_item {
+    display: flex;
+    margin-right: 20px;
+}
+
+.header_nav_item a:hover,
+.header_nav_item a:active,
+.header_nav_item a.active {
+    color: lightgreen;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+.form-control {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 10px 0;
+}
+
+label {
+    font-size: 35px;
+    color: darkslategrey;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.card__header,
+.card__content {
+    padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+    margin: 0;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__actions {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+    margin: 0 0.25rem;
+}
+
+
